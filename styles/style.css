@@ -1,0 +1,14 @@
+html{
+  padding: 1%;
+}
+
+#editor{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  padding-left: 1.5%;
+  background-color: #eae8e8;
+  width: 1565px;
+  height: 660px;
+  border-radius: 20px;
+  padding-top: 10px;
+}
