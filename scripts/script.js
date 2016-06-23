@@ -1,6 +1,6 @@
 function load(){
-  console.log("Loaded");
-  document.getElementById('editor').innerHTML = wkjesvjr
+  // Retrieve
+  document.getElementById('editor').textContent = localStorage.getItem("saved");
 }
 
 function save(){
@@ -8,6 +8,5 @@ function save(){
   // Store
     localStorage.clear();
     localStorage.setItem("saved", content);
-    // Retrieve
     console.log(localStorage.getItem("saved"));
 }
