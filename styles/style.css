@@ -12,3 +12,13 @@ html{
   border-radius: 20px;
   padding-top: 10px;
 }
+
+.download-popup{
+  position: absolute;
+  left: 45%;
+  top: 40%;
+  z-index: 50;
+  width: 500px;
+  height:200px;
+  background-color: red;
+}

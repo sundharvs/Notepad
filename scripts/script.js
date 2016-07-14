@@ -10,3 +10,7 @@ function save(){
     localStorage.setItem("saved", content);
     console.log(localStorage.getItem("saved"));
 }
+
+function down(){
+  download(document.getElementById('editor').textContent, "save.txt", "text/plain");
+}
